@@ -37,12 +37,14 @@ module multi_bit_full_adder_tb;
     // $monitor("a=%h, b=%h, carry_in=%h, carry_out=%h, sum=%h", a, b, carry_in, carry_out, sum);
     $monitor("a=%d, b=%d, carry_in=%b, carry_out=%b, sum=%d", a, b, carry_in, carry_out, sum);
 
-    for ( i = 0; i < 10; i = i + 1 ) begin
+    for ( i = 0; i < 10; i = i + 1 ) 
+    begin
             #10
-            a <= $random;
-            b <= $random;
-            carry_in <= $random;
-        end
+            a = $random;
+            b = $random;
+            carry_in = $random;
+    end
+
     #10
     a = -1;
     b = 0;

@@ -1,0 +1,879 @@
+$date
+	Mon May  1 22:52:23 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module multi_bit_full_adder_tb $end
+$var wire 8 ! sum [7:0] $end
+$var wire 1 " carry_out $end
+$var reg 8 # a [7:0] $end
+$var reg 8 $ b [7:0] $end
+$var reg 1 % carry_in $end
+$var integer 32 & i [31:0] $end
+$scope module uut $end
+$var wire 8 ' input_a [7:0] $end
+$var wire 8 ( input_b [7:0] $end
+$var wire 1 % input_carry $end
+$var wire 8 ) output_sum [7:0] $end
+$var wire 1 " output_carry $end
+$var wire 8 * carry_in_carry_out_chain [7:0] $end
+$scope begin genblk1[0] $end
+$scope begin genblk2 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 + input_a $end
+$var wire 1 , input_b $end
+$var wire 1 % input_carry $end
+$var wire 1 - xor1_to_xor2 $end
+$var wire 1 . output_sum $end
+$var wire 1 / output_carry $end
+$var wire 1 0 and2_to_or $end
+$var wire 1 1 and1_to_or $end
+$scope module and1 $end
+$var wire 1 + input_a $end
+$var wire 1 , input_b $end
+$var wire 1 1 output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 % input_a $end
+$var wire 1 0 output_c $end
+$var wire 1 - input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 0 input_a $end
+$var wire 1 1 input_b $end
+$var wire 1 / output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 + input_a $end
+$var wire 1 , input_b $end
+$var wire 1 - output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 - input_a $end
+$var wire 1 % input_b $end
+$var wire 1 . output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$scope begin genblk5 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 2 input_a $end
+$var wire 1 3 input_b $end
+$var wire 1 4 input_carry $end
+$var wire 1 5 xor1_to_xor2 $end
+$var wire 1 6 output_sum $end
+$var wire 1 7 output_carry $end
+$var wire 1 8 and2_to_or $end
+$var wire 1 9 and1_to_or $end
+$scope module and1 $end
+$var wire 1 2 input_a $end
+$var wire 1 3 input_b $end
+$var wire 1 9 output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 4 input_a $end
+$var wire 1 8 output_c $end
+$var wire 1 5 input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 8 input_a $end
+$var wire 1 9 input_b $end
+$var wire 1 7 output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 2 input_a $end
+$var wire 1 3 input_b $end
+$var wire 1 5 output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 5 input_a $end
+$var wire 1 4 input_b $end
+$var wire 1 6 output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope begin genblk5 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 : input_a $end
+$var wire 1 ; input_b $end
+$var wire 1 < input_carry $end
+$var wire 1 = xor1_to_xor2 $end
+$var wire 1 > output_sum $end
+$var wire 1 ? output_carry $end
+$var wire 1 @ and2_to_or $end
+$var wire 1 A and1_to_or $end
+$scope module and1 $end
+$var wire 1 : input_a $end
+$var wire 1 ; input_b $end
+$var wire 1 A output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 < input_a $end
+$var wire 1 @ output_c $end
+$var wire 1 = input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 @ input_a $end
+$var wire 1 A input_b $end
+$var wire 1 ? output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 : input_a $end
+$var wire 1 ; input_b $end
+$var wire 1 = output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 = input_a $end
+$var wire 1 < input_b $end
+$var wire 1 > output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$scope begin genblk5 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 B input_a $end
+$var wire 1 C input_b $end
+$var wire 1 D input_carry $end
+$var wire 1 E xor1_to_xor2 $end
+$var wire 1 F output_sum $end
+$var wire 1 G output_carry $end
+$var wire 1 H and2_to_or $end
+$var wire 1 I and1_to_or $end
+$scope module and1 $end
+$var wire 1 B input_a $end
+$var wire 1 C input_b $end
+$var wire 1 I output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 D input_a $end
+$var wire 1 H output_c $end
+$var wire 1 E input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 H input_a $end
+$var wire 1 I input_b $end
+$var wire 1 G output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 B input_a $end
+$var wire 1 C input_b $end
+$var wire 1 E output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 E input_a $end
+$var wire 1 D input_b $end
+$var wire 1 F output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$scope begin genblk5 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 J input_a $end
+$var wire 1 K input_b $end
+$var wire 1 L input_carry $end
+$var wire 1 M xor1_to_xor2 $end
+$var wire 1 N output_sum $end
+$var wire 1 O output_carry $end
+$var wire 1 P and2_to_or $end
+$var wire 1 Q and1_to_or $end
+$scope module and1 $end
+$var wire 1 J input_a $end
+$var wire 1 K input_b $end
+$var wire 1 Q output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 L input_a $end
+$var wire 1 P output_c $end
+$var wire 1 M input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 P input_a $end
+$var wire 1 Q input_b $end
+$var wire 1 O output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 J input_a $end
+$var wire 1 K input_b $end
+$var wire 1 M output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 M input_a $end
+$var wire 1 L input_b $end
+$var wire 1 N output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$scope begin genblk5 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 R input_a $end
+$var wire 1 S input_b $end
+$var wire 1 T input_carry $end
+$var wire 1 U xor1_to_xor2 $end
+$var wire 1 V output_sum $end
+$var wire 1 W output_carry $end
+$var wire 1 X and2_to_or $end
+$var wire 1 Y and1_to_or $end
+$scope module and1 $end
+$var wire 1 R input_a $end
+$var wire 1 S input_b $end
+$var wire 1 Y output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 T input_a $end
+$var wire 1 X output_c $end
+$var wire 1 U input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 X input_a $end
+$var wire 1 Y input_b $end
+$var wire 1 W output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 R input_a $end
+$var wire 1 S input_b $end
+$var wire 1 U output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 U input_a $end
+$var wire 1 T input_b $end
+$var wire 1 V output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$scope begin genblk5 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 Z input_a $end
+$var wire 1 [ input_b $end
+$var wire 1 \ input_carry $end
+$var wire 1 ] xor1_to_xor2 $end
+$var wire 1 ^ output_sum $end
+$var wire 1 _ output_carry $end
+$var wire 1 ` and2_to_or $end
+$var wire 1 a and1_to_or $end
+$scope module and1 $end
+$var wire 1 Z input_a $end
+$var wire 1 [ input_b $end
+$var wire 1 a output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 \ input_a $end
+$var wire 1 ` output_c $end
+$var wire 1 ] input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 ` input_a $end
+$var wire 1 a input_b $end
+$var wire 1 _ output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 Z input_a $end
+$var wire 1 [ input_b $end
+$var wire 1 ] output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 ] input_a $end
+$var wire 1 \ input_b $end
+$var wire 1 ^ output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$scope begin genblk4 $end
+$scope module umulti_bit_full_adder $end
+$var wire 1 b input_a $end
+$var wire 1 c input_b $end
+$var wire 1 d input_carry $end
+$var wire 1 e xor1_to_xor2 $end
+$var wire 1 f output_sum $end
+$var wire 1 " output_carry $end
+$var wire 1 g and2_to_or $end
+$var wire 1 h and1_to_or $end
+$scope module and1 $end
+$var wire 1 b input_a $end
+$var wire 1 c input_b $end
+$var wire 1 h output_c $end
+$upscope $end
+$scope module and2 $end
+$var wire 1 d input_a $end
+$var wire 1 g output_c $end
+$var wire 1 e input_b $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 g input_a $end
+$var wire 1 h input_b $end
+$var wire 1 " output_c $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 b input_a $end
+$var wire 1 c input_b $end
+$var wire 1 e output_c $end
+$upscope $end
+$scope module xor2 $end
+$var wire 1 e input_a $end
+$var wire 1 d input_b $end
+$var wire 1 f output_c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+bz0000000 *
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10000
+16
+14
+bz0000001 *
+1/
+10
+1f
+1>
+1V
+1-
+1e
+1=
+1U
+b10100110 !
+b10100110 )
+0.
+1,
+1c
+1:
+1R
+b1 &
+1%
+b10000001 $
+b10000001 (
+b100100 #
+b100100 '
+#20000
+1N
+1L
+1G
+1H
+1D
+1?
+1@
+0>
+1<
+bz0001111 *
+17
+0F
+0f
+1.
+00
+06
+18
+b1110001 !
+b1110001 )
+1^
+1E
+0e
+11
+0-
+15
+1]
+1;
+1C
+0c
+1+
+12
+0:
+1Z
+b10 &
+b1101 $
+b1101 (
+b1100011 #
+b1100011 '
+#30000
+0f
+0d
+0_
+0`
+1^
+0\
+0W
+0X
+1V
+0L
+0T
+0G
+bz0000111 *
+0O
+0.
+10
+1F
+0H
+b1111000 !
+b1111000 )
+1N
+0P
+01
+1-
+0E
+1M
+0,
+13
+0;
+0C
+1K
+02
+1:
+b11 &
+b10010 $
+b10010 (
+b1100101 #
+b1100101 '
+#40000
+1f
+1d
+1_
+1`
+0^
+1\
+1W
+1X
+0V
+1T
+1O
+1P
+0N
+1L
+bz1111111 *
+1G
+1>
+0@
+b10000100 !
+b10000100 )
+0F
+1H
+1A
+0=
+1E
+1;
+1S
+1[
+1B
+0R
+0Z
+b100 &
+b1110110 $
+b1110110 (
+b1101 #
+b1101 '
+#50000
+0f
+0d
+0_
+0`
+1^
+0\
+0W
+0>
+0X
+1V
+0<
+0T
+07
+bz0001101 *
+0O
+16
+08
+1F
+0H
+b1111010 !
+b1111010 )
+1N
+0P
+1"
+05
+1I
+0E
+0M
+1h
+03
+1C
+0K
+0S
+0[
+1c
+1R
+1Z
+1b
+b101 &
+b10001100 $
+b10001100 (
+b11101101 #
+b11101101 '
+#60000
+0>
+1f
+0<
+0N
+1d
+07
+0L
+04
+1_
+0^
+16
+08
+0G
+0V
+bz1000100 *
+0/
+1a
+0]
+15
+0I
+0U
+00
+b10001011 !
+b10001011 )
+1.
+1,
+0C
+1[
+0+
+12
+0B
+0R
+b110 &
+0%
+b11000101 $
+b11000101 (
+b11000110 #
+b11000110 '
+#70000
+1>
+1<
+17
+18
+06
+1^
+14
+1\
+1N
+0f
+1g
+1/
+b1011100 !
+b1011100 )
+0.
+bz1100111 *
+1W
+1M
+0h
+1e
+11
+0-
+1Y
+13
+1K
+1S
+0c
+1+
+02
+1R
+b111 &
+b1110111 $
+b1110111 (
+b11100101 #
+b11100101 '
+#80000
+1X
+1T
+1O
+1d
+1P
+0N
+1_
+1L
+04
+1G
+1\
+0/
+1.
+0>
+1@
+1f
+0g
+06
+08
+0F
+1H
+bz1111110 *
+1W
+0V
+b10000001 !
+b10000001 )
+0^
+1`
+01
+1-
+0A
+1=
+1h
+0e
+19
+05
+1E
+0Y
+1U
+0a
+1]
+0,
+0;
+1c
+12
+1B
+0R
+0Z
+b1000 &
+b11110010 $
+b11110010 (
+b10001111 #
+b10001111 '
+#90000
+0L
+0G
+0\
+0H
+1F
+0W
+0D
+0X
+1V
+0?
+0T
+0@
+1>
+0O
+0<
+0N
+0P
+bz1000000 *
+07
+b10101101 !
+b10101101 )
+0^
+0`
+0M
+09
+1a
+0]
+1,
+03
+1;
+0K
+0S
+0+
+02
+0:
+1R
+1Z
+b1001 &
+b11000101 $
+b11000101 (
+b11101000 #
+b11101000 '
+#100000
+1T
+1O
+0"
+1P
+1^
+16
+1L
+1\
+1D
+0d
+14
+1G
+1F
+1W
+1V
+1f
+0g
+1?
+0>
+0N
+0_
+bz0111101 *
+1/
+1I
+0E
+1Y
+0U
+0h
+1e
+11
+0-
+1A
+0=
+1M
+0a
+00
+b11101011 !
+b11101011 )
+1.
+1C
+1S
+0[
+0c
+1+
+1:
+1J
+0Z
+b1010 &
+1%
+b101101 $
+b101101 (
+b10111101 #
+b10111101 '
+#110000
+0\
+0W
+0T
+0O
+0P
+1N
+0L
+0"
+0G
+0@
+0g
+1f
+0<
+0d
+04
+0D
+07
+0_
+0/
+bz0000000 *
+0?
+1>
+1F
+0H
+1V
+0X
+16
+08
+1^
+0`
+01
+1-
+0A
+1=
+0I
+1E
+0Y
+1U
+15
+1]
+b11111111 !
+b11111111 )
+1.
+0,
+0;
+0C
+0S
+12
+1Z
+0%
+b0 $
+b0 (
+b11111111 #
+b11111111 '
