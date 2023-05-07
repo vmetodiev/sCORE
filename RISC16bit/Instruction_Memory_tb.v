@@ -24,7 +24,7 @@ module Instruction_Memory_tb;
         $monitor("instruction: %b", instruction_from_file);
         program_counter = 0;
 
-        for ( i = 0; i < 15*2; i = i + 1 ) begin
+        for ( i = 0; i < 15*2; i = i + 2 ) begin
             #1
             program_counter = i;
         end
