@@ -12,10 +12,11 @@ https://www.fpga4student.com/2017/04/verilog-code-for-16-bit-risc-processor.html
   $ vvp RISC_16_bit_tb.vvp  
   $ gtkwave RISC_16_bit_tb_waveform.vcd  
 
+#### Added
+Additional test benches for some of the basic modules.
 
 ### RV32I
 RV32I core in TL-Verilog from the "Building a RISC-V CPU Core (LFD111x)" course by Linux Foundation
 https://training.linuxfoundation.org/training/building-a-riscv-cpu-core-lfd111x/
 
-## Added
-Additional test benches for some of the basic modules.
+
